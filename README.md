@@ -1,16 +1,50 @@
-# React + Vite
+# haly.dev – Personal Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A bilingual (Vietnamese / English) personal portfolio website presenting my background, technical skills, capstone projects and learning journey as an aspiring Backend Developer.
 
-Currently, two official plugins are available:
+🔗 **Live demo:** https://haly-portfolio.vercel.app/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Tech Stack
 
-## React Compiler
+- **Framework:** React + Vite
+- **Routing:** React Router
+- **Styling:** Tailwind CSS
+- **UI Utilities:** React Icons
+- **Deployment:** Vercel
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Key Features
 
-## Expanding the ESLint configuration
+- **Bilingual Content:** Switch between Vietnamese and English instantly, with the preferred language remembered between visits.
+- **Light & Dark Theme:** Theme toggle with a custom pink color palette, also persisted across sessions.
+- **Featured & Other Projects:** Detailed case studies for the two main capstone projects, plus compact cards for smaller projects, each with repository and live demo links.
+- **Experience & Education Timeline:** Clear timeline of work history, training and education.
+- **Responsive Design:** Mobile-friendly navigation, smooth scrolling between sections and a custom 404 page.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Getting Started
+
+Clone the repository and install dependencies:
+
+```bash
+git clone https://github.com/haly1911/haly-portfolio.git
+cd haly-portfolio
+npm install
+```
+
+Run the development server:
+
+```bash
+npm run dev
+```
+
+Open http://localhost:5173 to view it in your browser.
+
+## Project Structure
+
+```
+src/
+├── components/   # Page sections and reusable UI components
+├── context/      # Theme and language providers
+├── data/         # Skills and project metadata
+├── layouts/      # Page layout
+└── locales/      # Vietnamese and English content
+```
