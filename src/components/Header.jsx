@@ -28,7 +28,7 @@ const Header = () => {
 
         <nav className="hidden items-center gap-9 lg:flex">
           {t.nav.map((label, index) => (
-            <a key={NAV_IDS[index]} className="portfolio-link text-xs" href={`#${NAV_IDS[index]}`}>
+            <a key={NAV_IDS[index]} className="portfolio-link text-sm" href={`#${NAV_IDS[index]}`}>
               {label}
             </a>
           ))}
@@ -78,13 +78,13 @@ const Header = () => {
 
       {menuOpen && (
         <nav
-          className="flex flex-wrap gap-x-5 gap-y-1 justify-between border-t border-border/70 py-3 px-3 lg:hidden"
+          className="flex flex-wrap gap-x-5 gap-y-1 justify-center sm:justify-between border-t border-border/70 py-3 px-3 lg:hidden"
         >
           {t.nav.map((label, index) => (
             <a
               key={NAV_IDS[index]}
               onClick={() => setMenuOpen(false)}
-              className="portfolio-link py-1.5 text-xs"
+              className="portfolio-link py-1.5 text-sm"
               href={`#${NAV_IDS[index]}`}
             >
               {label}

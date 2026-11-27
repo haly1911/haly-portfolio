@@ -65,14 +65,14 @@ const Hero = () => {
           </div>
         </div>
       </div>
-      <div className="relative mx-auto w-full max-w-117 lg:justify-self-end">
+      <div className="relative mx-auto w-full max-w-100 lg:justify-self-end">
         <div className="relative overflow-hidden rounded-[46%_46%_8px_8px] border border-border/70 bg-surface-raised">
           <img
             src="/portrait.jpg"
             alt="portrait-photo"
             width={1152}
             height={1152}
-            className="aspect-[0.83] w-full object-cover object-[66%_center]"
+            className="aspect-[0.83] w-full object-cover"
           />
           <div className="absolute bottom-5 left-5 flex items-center gap-3 border border-border/70 bg-background/90 px-4 py-3 backdrop-blur-md">
             <span className="grid size-9 place-items-center rounded-full bg-primary/15 text-primary">

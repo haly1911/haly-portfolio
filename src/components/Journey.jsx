@@ -16,7 +16,7 @@ const Journey = () => {
         <div className="max-w-2xl space-y-5 text-sm leading-8 text-muted-foreground text-justify">
           <p>{t.journey.paragraphs[0]}</p>
           <p>{t.journey.paragraphs[1]}</p>
-          <blockquote className="mt-7 border-t border-border pt-6 font-display font-semibold text-2xl italic leading-9 text-foreground">
+          <blockquote className="mt-7 border-t border-border pt-6 font-display font-semibold text-2xl italic leading-9 text-foreground text-left sm:text-justify">
             “{t.journey.quote}”
           </blockquote>
         </div>
